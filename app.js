@@ -10,6 +10,9 @@ const logger       = require('morgan');
 const path         = require('path');
 
 
+
+
+
 mongoose
   .connect('mongodb://localhost/proj-axioma', {useNewUrlParser: true})
   .then(x => {
@@ -44,6 +47,9 @@ app.set('view engine', 'hbs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
+app.use(express.static(path.join(__dirname, 'public/images/icons')));
+
+
 
 
 // default value for title local
@@ -51,8 +57,11 @@ app.locals.title = 'Express - Generated with IronGenerator';
 
 
 
-const index = require('./routes/index');
-app.use('/', index);
+const home = require('./routes/index');
+app.use('/', home);
+
 
 
 module.exports = app;
+
+
