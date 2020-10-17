@@ -395,7 +395,17 @@
 
 
 
+.numero-questao{
+  background: rgb(33, 33, 114);
+  font-size: 30px;
+  color: white;
+  margin: 20px auto 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  border-radius: 10px;
 
+}
 
 
 

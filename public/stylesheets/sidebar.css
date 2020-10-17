@@ -24,7 +24,7 @@ body{
 
 .topbar {
   
-  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);   
+  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);
   height: 30px;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ body{
   color: white;   
   text-align: center;
   line-height: 70px;
-  background: #142897;
+  background:#142897;
 
 }
 
@@ -98,7 +98,7 @@ label #btn, label #cancel {
 
   position: absolute;
   cursor: pointer;
-  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);   
+  background:  linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);   
   border-radius: 3px;
   position: fixed;
 
